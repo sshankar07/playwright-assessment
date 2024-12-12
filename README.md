@@ -53,7 +53,8 @@ BASE_URL=https://animated-gingersnap-8cf7f2.netlify.app
 4. **Run the Tests**
 To run the tests, execute the following command:
 
-npx playwright test
+npx playwright test tests/dataDrivenTests.spec.js
+
 This will run the tests in parallel across all configured browsers (Chromium, Firefox, and Webkit).
 
 5. **Viewing Test Results**
